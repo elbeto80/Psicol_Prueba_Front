@@ -13,7 +13,7 @@ function Menu() {
                 <div className="sidebar">
                     <div className="user-panel mt-3 pb-3 mb-3 d-flex">
                         <div className="image">
-                            <img src="img/user2-160x160.jpg" className="img-circle elevation-2" alt="User Image" />
+                            <img src="img/user2-160x160.jpg" className="img-circle elevation-2" />
                         </div>
                         <div className="info">
                             <Link to={"/"} className="d-block">Alberto Alvarez</Link>
