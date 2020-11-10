@@ -22,14 +22,21 @@ function Menu() {
                     <nav className="mt-2">
                         <ul className="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                             <li className="nav-item">
-                                <a href="/tiendas" className="nav-link">
-                                    <i className="nav-icon fas fa-store"></i>
+                                <a href="/compradores" className="nav-link">
+                                    <i className="nav-icon fas fa-user"></i>
                                     <p>
-                                        Tiendas
+                                        Compradores
                                     </p>
                                 </a>
                             </li>
-
+                            <li className="nav-item">
+                                <a href="/boletas" className="nav-link">
+                                    <i className="nav-icon fas fa-ticket-alt"></i>
+                                    <p>
+                                        Boletas
+                                    </p>
+                                </a>
+                            </li>
                         </ul>
                     </nav>
                 </div>
