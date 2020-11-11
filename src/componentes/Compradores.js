@@ -128,9 +128,8 @@ const Compradores = () => {
     }
 
     const HandelEditarComprador = (info) => {
-        console.log(info);
         setDatos({
-            // ...datos,
+            ...datos,
             cedula: info.cedula,
             nombre: info.nombre,
             apellido: info.apellido,
@@ -187,9 +186,7 @@ const Compradores = () => {
             campoBuscar: ''
         });
         document.getElementById('campoBuscar').value = '';
-        setTimeout(() => {
-            HandelGetCompradores();
-        }, 1000);
+        HandelGetCompradores();
     }
 
     useEffect(() => {
@@ -218,7 +215,7 @@ const Compradores = () => {
 
         <section className="content">
             <div className="card card-solid">
-                <div className="card-body padding_07em">
+                <div className="card-body">
                     <div className="row">
                         <div className="col-md-12  mb-3">
                             <button className="btn btn-primary" data-toggle="modal" data-target="#modalCompradores">Nuevo comprador</button>
