@@ -11,7 +11,7 @@ export const Success_Error_Mostrar = (titulo, msj, icon, cerrar) => {
         icon: icon,
     });
 
-    if(cerrar == 1) {
+    if(cerrar === 1) {
     setTimeout(() => {
         MySwal.close()
     }, 1200);
@@ -19,7 +19,7 @@ export const Success_Error_Mostrar = (titulo, msj, icon, cerrar) => {
 }
 
 export const CargandoSweet = (op,msj) => {
-    if(op == 0) {
+    if(op === 0) {
         MySwal.fire({
             title: msj,
             allowEscapeKey: false,
